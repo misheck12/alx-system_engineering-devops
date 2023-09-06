@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -u -o output.txt input.txt
+sort | uniq -u
